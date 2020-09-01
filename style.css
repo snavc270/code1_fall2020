@@ -1,0 +1,49 @@
+/* CSS files add styling rules to your content */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,700&display=swap');
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  margin: 2em;
+}
+
+h3 {
+  font-style: italic;
+  font-size: 2em;
+  color: #373fff;
+}
+
+h5{
+	font-size: 1.5em; 
+	color: white;
+	max-width: 75%;
+}
+
+h1{
+	font-size: 4em;
+	color: white;
+}
+a{
+	text-decoration: none; 
+	 color: #373fff;
+}
+.nav {
+	display: flex;
+	position: relative;
+}
+.mLeft{
+	margin-left: 130px;
+}
+ul{
+    left: 300px;
+    text-decoration: none;
+    list-style-type: none;
+    position: absolute;
+    top: 30px;
+}	
+li {
+  float: left;
+  padding-left: 1.5em;
+}
+li a {
+	display: block;
+}
