@@ -12,6 +12,7 @@ class Header extends HTMLElement {
 	    		<li> <a href = 'https://parsonsdt.github.io/code-1-2020/syllabus.html' >Course Site </a></li>
 	    		<li> <a href = 'lectures.html'>Lectures </a> </li>
 	    		<li> <a href = 'code-examples.html'> Code Examples</a> </li>
+	    		<li> <a href = 'https://code1group.slack.com'>Slack</a></li>
 	    	</ul>
     	</div>
 	`
