@@ -8,10 +8,11 @@ class Header extends HTMLElement {
     this.innerHTML = `
     	<div class = nav>
 	    	<h3><a href='index.html'> Code 1 : Section B </a></h3>
-	    	<ul> 
+	    	<ul class= "menu"> 
 	    		<li> <a href = 'https://parsonsdt.github.io/code-1-2020/syllabus.html' >Course Site </a></li>
-	    		<li> <a href = 'lectures.html'>Lectures </a> </li>
-	    		<li> <a href = 'code-examples.html'> Code Examples</a> </li>
+	    		<li> <a href = 'week1.html'>Lectures </a> </li>
+	    		<li> <a href = 'https://editor.p5js.org/snavc270/sketches'> Code Examples</a> </li>
+          <li> <a href = 'https://code1group.slack.com'>Slack</a> </li>
 	    	</ul>
     	</div>
 	`

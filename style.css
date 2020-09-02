@@ -7,9 +7,12 @@ body {
 }
 
 h3 {
-  font-style: italic;
   font-size: 2em;
   color: #373fff;
+}
+
+.italic{
+	font-style: italic;
 }
 
 h5{
@@ -17,7 +20,6 @@ h5{
 	color: white;
 	max-width: 75%;
 	font-weight: 400;
-	font-style: italic;
 }
 
 h1{
@@ -28,6 +30,9 @@ a{
 	text-decoration: none; 
 	 color: #373fff;
 }
+a:hover{
+	color: rgb(72, 173, 241);
+}
 .nav {
 	display: flex;
 	position: relative;
@@ -35,17 +40,31 @@ a{
 .mLeft{
 	margin-left: 130px;
 }
-ul{
+.mLeft_small{
+	margin-left: 50px;
+}
+.menu{
     left: 300px;
-    text-decoration: none;
-    list-style-type: none;
     position: absolute;
     top: 30px;
 }	
+
+ul{
+	text-decoration: none;
+    list-style-type: none;
+}
+
 li {
   float: left;
-  padding-left: 1.5em;
+  padding-right: 1.5em;
 }
 li a {
 	display: block;
+}
+
+.blue{
+	color: #373fff;
+}
+.green{
+	color: rgb(138, 247, 228);
 }
