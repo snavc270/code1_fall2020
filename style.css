@@ -48,7 +48,6 @@ a{
 a:hover{
 	color: rgb(138, 247, 228);
 }
-<<<<<<< HEAD
 
 /*//////////////////////////////////COLORS//////////////////////////////////////*/
 .blue{
@@ -86,11 +85,11 @@ a:hover{
 
 
 /*//////////////////////////////////NAVIGATION//////////////////////////////////////*/
-=======
+
 a:hover{
 	color: rgb(72, 173, 241);
 }
->>>>>>> updated nav
+
 .nav {
 	display: flex;
 	position: relative;
@@ -100,21 +99,20 @@ a:hover{
   color: #373fff;
   font-weight: 400 !important;
 }
-<<<<<<< HEAD
+
 .menu > li > a:hover{
   color: rgb(138, 247, 228);
 }
 
-=======
+
 .mLeft_small{
 	margin-left: 50px;
 }
->>>>>>> updated nav
+
 .menu{
     left: 300px;
     position: absolute;
     top: 30px;
-<<<<<<< HEAD
 }
 /* Dropdown Button */
 .dropbtn {
@@ -176,9 +174,6 @@ a:hover{
   margin-bottom: 100px;
 }
 
-=======
-}	
-
 ul{
 	text-decoration: none;
     list-style-type: none;
@@ -198,4 +193,3 @@ li a {
 .green{
 	color: rgb(138, 247, 228);
 }
->>>>>>> updated nav
