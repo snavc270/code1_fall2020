@@ -1,11 +1,13 @@
 /* CSS files add styling rules to your content */
+/* CSS files add styling rules to your content */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,700&display=swap');
 
 body {
   font-family: 'Work Sans', sans-serif;
   margin: 2em;
+  color:#373fff;
 }
-
+/*//////////////////////////////////TEXT STYLING//////////////////////////////////////*/
 h3 {
   font-size: 2em;
   color: #373fff;
@@ -26,27 +28,88 @@ h1{
 	font-size: 4em;
 	color: white;
 }
+ul{
+	text-decoration: none;
+    list-style-type: none;
+}
+
+li {
+  float: left;
+  padding-right: 1.5em;
+}
+li a {
+	display: block;
+}
 a{
 	text-decoration: none; 
-	 color: #373fff;
+	color: rgb(253, 203, 252);
+  font-weight: 700;
+}
+a:hover{
+	color: rgb(138, 247, 228);
+}
+
+/*//////////////////////////////////COLORS//////////////////////////////////////*/
+.blue{
+	color: #373fff;
 }
 a:hover{
 	color: rgb(72, 173, 241);
 }
-.nav {
-	display: flex;
-	position: relative;
+
+.green{
+	color: rgb(138, 247, 228);
 }
+.blue-2{
+  color: rgb(72, 173, 241);   
+}
+
+.pink{
+  color: rgb(253, 203, 252); 
+  font-weight: 700;
+}
+
+/*//////////////////////////////////MARGINS //////////////////////////////////////*/
+
 .mLeft{
 	margin-left: 130px;
 }
 .mLeft_small{
 	margin-left: 50px;
 }
+.mRight_small{
+  margin-right: 50px;
+}
+.mTop-100{
+	margin-top: 100px;
+}
+.mTop-10{
+  margin-top: 35px;
+}
+
+
+/*//////////////////////////////////NAVIGATION//////////////////////////////////////*/
+
+.nav {
+	display: flex;
+	position: relative;
+}
+
+.menu > li > a{
+  color: #373fff;
+  font-weight: 400 !important;
+}
+.mLeft_small{
+	margin-left: 50px;
+}
+.menu > li > a:hover{
+  color: rgb(138, 247, 228);
+}
 .menu{
     left: 300px;
     position: absolute;
     top: 30px;
+
 }	
 
 ul{
@@ -68,3 +131,65 @@ li a {
 .green{
 	color: rgb(138, 247, 228);
 }
+
+}
+/* Dropdown Button */
+.dropbtn {
+  font-size: 16px;
+  border: none;
+  background: none; 
+  color: #373fff;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.05);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+ /* color: black;*/
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {color: white; background-color: rgb(138, 247, 228);}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {color: rgb(72, 173, 241);}
+
+
+
+
+
+/*//////////////////////////////////GRID STYLING//////////////////////////////////////*/
+.col-2md{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 1px;
+}
+.lecture-content{
+  background-color: white; 
+  padding: .5em 2em .5em 2em;
+}
+
+.lecture-content > *{
+  margin-bottom: 100px;
+}
+
