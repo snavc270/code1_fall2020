@@ -14,22 +14,22 @@ h3 {
 }
 
 .italic{
-	font-style: italic;
+  font-style: italic;
 }
 
 h5{
-	font-size: 1.5em; 
-	color: white;
-	max-width: 75%;
-	font-weight: 400;
+  font-size: 1.5em; 
+  color: white;
+  max-width: 75%;
+  font-weight: 400;
 }
 
 h1{
-	font-size: 4em;
-	color: white;
+  font-size: 4em;
+  color: white;
 }
 ul{
-	text-decoration: none;
+  text-decoration: none;
     list-style-type: none;
 }
 
@@ -38,23 +38,23 @@ li {
   padding-right: 1.5em;
 }
 li a {
-	display: block;
+  display: block;
 }
 a{
-	text-decoration: none; 
-	color: rgb(253, 203, 252);
+  text-decoration: none; 
+  color: rgb(253, 203, 252);
   font-weight: 700;
 }
 a:hover{
-	color: rgb(138, 247, 228);
+  color: rgb(138, 247, 228);
 }
 
 /*//////////////////////////////////COLORS//////////////////////////////////////*/
 .blue{
-	color: #373fff;
+  color: #373fff;
 }
 .green{
-	color: rgb(138, 247, 228);
+  color: rgb(138, 247, 228);
 }
 .blue-2{
   color: rgb(72, 173, 241);   
@@ -68,16 +68,16 @@ a:hover{
 /*//////////////////////////////////MARGINS //////////////////////////////////////*/
 
 .mLeft{
-	margin-left: 130px;
+  margin-left: 130px;
 }
 .mLeft_small{
-	margin-left: 50px;
+  margin-left: 50px;
 }
 .mRight_small{
   margin-right: 50px;
 }
 .mTop-100{
-	margin-top: 100px;
+  margin-top: 100px;
 }
 .mTop-10{
   margin-top: 35px;
@@ -85,28 +85,17 @@ a:hover{
 
 
 /*//////////////////////////////////NAVIGATION//////////////////////////////////////*/
-
-a:hover{
-	color: rgb(72, 173, 241);
-}
-
 .nav {
-	display: flex;
-	position: relative;
+  display: flex;
+  position: relative;
 }
 
 .menu > li > a{
   color: #373fff;
   font-weight: 400 !important;
 }
-
 .menu > li > a:hover{
   color: rgb(138, 247, 228);
-}
-
-
-.mLeft_small{
-	margin-left: 50px;
 }
 
 .menu{
@@ -172,24 +161,4 @@ a:hover{
 
 .lecture-content > *{
   margin-bottom: 100px;
-}
-
-ul{
-	text-decoration: none;
-    list-style-type: none;
-}
-
-li {
-  float: left;
-  padding-right: 1.5em;
-}
-li a {
-	display: block;
-}
-
-.blue{
-	color: #373fff;
-}
-.green{
-	color: rgb(138, 247, 228);
 }
