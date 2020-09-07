@@ -2,21 +2,27 @@
     to your site with Javascript */
 
 // prints "hi" in the browser's dev tools console
-
 class Header extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
-    	<div class = nav>
-	    	<h3><a href='index.html'> Code 1 : Section B </a></h3>
-	    	<ul> 
-	    		<li> <a href = 'https://parsonsdt.github.io/code-1-2020/syllabus.html' >Course Site </a></li>
-	    		<li> <a href = 'lectures.html'>Lectures </a> </li>
-	    		<li> <a href = 'code-examples.html'> Code Examples</a> </li>
-	    		<li> <a href = 'https://code1group.slack.com'>Slack</a></li>
-	    	</ul>
-    	</div>
-	`
-	}
+      <div class = "nav gradient">
+        <h3 class = "italic"><a class = "blue" href='index.html'> Code 1 : Section B </a></h3>
+        <ul class= "menu"> 
+          <li> <a href = 'https://parsonsdt.github.io/code-1-2020' >Course Site </a></li>
+          <li >
+            <div class="dropdown">
+              <button class="dropbtn">Lectures</button>
+              <div class="dropdown-content">
+                <a href="week1.html"> Week 1</a>
+              </div>
+            </div>
+          </li> 
+          <li> <a href = 'https://editor.p5js.org/snavc270/sketches'> Code Examples</a> </li>
+          <li> <a href = 'https://code1group.slack.com'>Slack</a> </li>
+        </ul> 
+      </div>
+  `
+  }
 }
 
 var colors = new Array(
@@ -58,7 +64,7 @@ var g2 = Math.round(istep * c1_0[1] + step * c1_1[1]);
 var b2 = Math.round(istep * c1_0[2] + step * c1_1[2]);
 var color2 = "rgb("+r2+","+g2+","+b2+")";
 
- $('#gradient').css({
+ $('.gradient').css({
    background: "-webkit-gradient(linear, left top, right top, from("+color1+"), to("+color2+"))"}).css({
     background: "-moz-linear-gradient(left, "+color1+" 0%, "+color2+" 100%)"});
   

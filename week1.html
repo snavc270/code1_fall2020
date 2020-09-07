@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Week 1 </title>
+    
+    <link rel="stylesheet" href="style.css">
+ 
+    <script src="script.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+
+  </head>  
+  <body class = "gradient">
+    <main-header > </main-header>
+    
+
+    <div class = " col-2md mLeft_small">
+      <h1 class = "blue "> Week 1: Welcome!</h1>
+    </div>
+    <div class = "mLeft_small mRight_small lecture-content">
+      <h3> <a href = 'https://docs.google.com/document/d/1VatKdcXn1tlE73onwRfsYb_A6WypyPAU9BtnDgX0kdI/edit?usp=sharing'> Our Syllabus</a> </h3>
+
+      <div>
+        <h3> Important links you should bookmark right now</h3>
+        <ul> 
+          <li><a href='https://editor.p5js.org' >p5 Web Editor</a></li>
+          <li><a href='https://code1group.slack.com' >Slack</a></li>
+          <li><a href='https://editor.p5js.org/snavc270/sketches' >Coding Examples Page</a></li>
+          <li><a href='https://parsonsdt.github.io/code-1-2020' >Course Site</a></li>
+          <li>...and of course this current site!</li>
+        </ul>
+      </div>
+      </br>
+      <div >
+        <h3> What is P5.js? </h3>
+        <p>"<a href="https://p5js.org/"> p5.js </a> is a JavaScript library for creative coding, with a focus on making coding accessible and inclusive for artists, designers, educators, beginners, and anyone else! p5.js is free and open-source because we believe software, and the tools to learn it, should be accessible to everyone.Using the metaphor of a sketch, p5.js has a full set of drawing functionality. However, you’re not limited to your drawing canvas. You can think of your whole browser page as your sketch, including HTML5 objects for text, input, video, webcam, and sound."</p>
+      </div>
+      <div class= "col-2md">
+        <div>
+        <h3> Getting started with the p5 web editor </h3>
+        <p>For the first few months of the course we will be coding in the p5 web editor. The editor runs on your browser, and generates all of the web files needed to get your project running including your: index.html, style.css, and sketch.js. Don't worry too much about the html and css files for now (more on them later!), we will be working in the sketch.js file.</p>
+        </br>
+        <p>Check out the tutorial below for more info about the web editor :)</p>
+        </div>
+        <img class = "mTop-10" src = "https://miro.medium.com/max/7668/1*FHOVMw8MZLHcUw3Ytwh-Aw.png" alt="p5 web editor" style="width: 100%; height: auto">
+      </div>
+      <div>
+      <iframe width="100%" height="500px"
+      src="https://www.youtube.com/embed?v=wiG7wLwyW0E&feature=youtu.be">
+      </iframe>
+
+      <div class= "mTop-10 col-2md">
+        <div>
+        <h3> Function setup() vs. function draw() </h3>
+        <p>Every sketch.js file will have two essential components: your setup function and your draw function. Everything placed in your setup will only run one time at the start of your sketch, and everything in your draw will run on an infinite loop until your sketch is stopped.</p>
+        </br>
+        <p><a href="https://editor.p5js.org/snavc270/sketches/TqV3dbwv3">Here</a> is the example we reviewd in class. Try commenting and uncommenting the console.log("hello world") line to see the difference between the setup and draw function</p>
+        </div>
+        <img class = "mTop-10" src = "https://nycdoe-cs4all.github.io/images/lessons/unit_1/1.2/sketchjs.png" alt="p5 function setup() and function draw()" style="width: 100%; height: auto">
+      </div>
+      <div>
+      <div class= "mTop-10 col-2md">
+        <div>
+        <h3> The p5 canvas</h3>
+        <p>p5.js renders all of the code we write to a canvas. When you write createCanvas(500, 500) in your function setup() you will generate a canvas that is 500 units wide by 500 units tall.</p>
+        <p>The canvas is based on a coordinate grid, with the top left corner of the canvas corresponding to the point (0, 0).</p>
+        </div>
+        <img class = "mTop-10" src = "https://p5creatorsguide.github.io/drawing-design-edition/image/ch4/c4_editor-grid-overlay.png" alt="p5 coordinate grid" style="width: 100%; height: auto">
+      </div>
+      <div>
+      <div class= "mTop-10 col-2md">
+        <div>
+        <h3> Drawing our first shapes to the canvas</h3>
+        <p>The p5.js library has many tools (pre-written functions) that we can pull into our sketch writing it's name. For example, if you want to draw a rectangle, you can write the line rect(0, 0, 100, 200) and p5 will draw a rectangle that is 100 units wide by 200 units tall at the point 0, 0. </p>
+        <p><a href="https://editor.p5js.org/snavc270/sketches/TqV3dbwv3">Here</a> is the example we reviewd in class. Try commenting and uncommenting the console.log("hello world") line to see the difference between the setup and draw function</p>
+        <p>Remember our code is going to run top to bottom! Try moving around the fill colors and the order in which you are drawing the shapes in <a href = "https://editor.p5js.org/snavc270/sketches/dVpNjOKi7">this sketch</a> to see how it affects your canvas.</p>
+        <p>Check out the <a href= "https://p5js.org/reference/">p5 reference page </a> for other 2d primitive shapes.</p>
+        </div>
+        <img class = "mTop-10" src = "https://miro.medium.com/max/4768/1*OPymOeSDuYX8wAFCR4kAMg.png" alt="drawing shapes to canvas" style="width: 100%; height: auto">
+      </div>
+      <iframe class ="mTop-10" width="100%" height="500px"
+      src="https://www.youtube.com/embed?v=hISICBkFa4Q&feature=youtu.be">
+      </iframe>
+      <div>
+      <div class= "mTop-10 col-2md">
+        <div>
+        <h3>What the **@# is pseudocode? </h3>
+        <p>Pseudocode is a tool coders use as a way to organize and plan out their thoughts before actually writing lines of code.</p>
+        <p>When thinking about complex tasks, breaking them down into small components and understanding how to organize your code can prevent many a code break headache.</p>
+        <p>For example, if we look at the 'house' we drew in class, the pseudocode for our house might look something like this</p>
+        <ul class = "blue-2"><li>//draw one large rectangle in the center of the screen for the base of our house</li>
+          <li>//draw one triangle horizontally centered on the screen, so that the base of the triangle aligns with the top of the house</li>
+          <li>//draw two smaller rectangles on top of the base rectangle, so that they are positioned symmetrically across the vertical midline of the base rectangle</li>
+        </ul>
+        </div>
+        <img class = "mTop-10" src = "https://memegenerator.net/img/instances/68471051.jpg" alt="pseudocode meme" style="width: 100%; height: auto">
+      </div>
+      <div class="mTop-10">
+        <h3 > Your Homework </h3>
+            <ul> 
+            <li><a href='https://parsonsdt.github.io/code-1-2020/assignment.html#'>Assignment 1</a></li>
+            <li><a href='https://parsonsdt.github.io/code-1-2020/readings.html#'>Reading</a></li>
+            <li><a>Watch Tutorials</a></li>
+            </ul> 
+          </br>
+      </div>
+      <div>
+        <h3> Tutorials</h3>
+        <ul> 
+          <li><a href='https://www.youtube.com/watch?v=wiG7wLwyW0E&feature=youtu.be'>P5 Web Editor & The Console</a></li>
+          <li><a href='https://www.youtube.com/watch?v=hISICBkFa4Q&feature=youtu.be'>2D Primitives</a></li>
+          <li><a href='https://www.youtube.com/watch?v=fTEvHLLwSBE&feature=youtu.be'>RGB Colors & Blend Mode</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
