@@ -14,6 +14,7 @@ class Header extends HTMLElement {
               <button class="dropbtn">Lectures</button>
               <div class="dropdown-content">
                 <a href="week1.html"> Week 1</a>
+                <a href="week2.html"> Week 2</a>
               </div>
             </div>
           </li> 
