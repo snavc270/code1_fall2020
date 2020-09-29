@@ -28,14 +28,19 @@ h1{
   font-size: 4em;
   color: white;
 }
+
+p{
+  font-size: 1.25em;
+}
 ul{
   text-decoration: none;
-    list-style-type: none;
+  list-style-type: none;
 }
 
 li {
   float: left;
   padding-right: 1.5em;
+  font-size: 1.25em ;
 }
 li a {
   display: block;
