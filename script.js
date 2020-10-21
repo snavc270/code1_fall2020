@@ -18,6 +18,8 @@ class Header extends HTMLElement {
                 <a href="week3.html"> Week 3</a>
                 <a href="week4.html"> Week 4</a>
                 <a href="week5.html"> Week 5</a>
+                <a href="week6.html"> Week 6</a>
+                <a href="week8.html"> Week 8</a>
               </div>
             </div>
           </li> 
